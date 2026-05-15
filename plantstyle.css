@@ -823,7 +823,106 @@ nav{
 
     }
 }
-
+@media  screen and (max-width:1250px) {
+    .best-otwo-img-box img {
+    width: 600px;
+    height:600px;
+}
+.best-otwo-info-box{
+    width: 100%;
+}
+.explore-controls{
+    display:flex;
+    justify-content: space-around;
+}
+}
+@media  screen and (max-width:800px) {
+    .best-otwo-img-box img {
+          width: 400px;
+          max-height:400px;
+}
+}
+@media screen and (max-width:500px){
+    .footer-first-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-plant-logo-box{
+        width: fit-content;
+        flex-direction: column;
+    }
+    .footer-logo-text{
+        width:fit-content;
+    }
+    .trendy-plant-explore{
+        flex-direction: column;
+        
+    }
+    .top-selling-plant-img{
+        width: fit-content;
+    }
+    .top-selling-plant-detail-box{
+        padding:0 1rem 2rem 1rem;
+    }
+    .customer-detail{
+        flex-direction: column;
+    }
+    #best-otwo-img{
+        width:300px;
+        height: 300px;
+    }
+    .bag-search-icon{
+        margin-left:0.3rem;
+        flex-wrap: wrap-reverse;
+        justify-content: end;
+    }
+    nav{
+         padding:2rem 1rem;
+    }
+    .explore-controls{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:447px){
+     .plant-selling-logo-div{
+         margin-top: -50px;
+     }
+     #suggestion-item-heading{
+        font-size:100px;
+        width: fit-content;
+     }
+     .trendy-plant-img,.trendy-plant-img-right{
+        width: 300px;
+        height: 300px;
+     }
+     .trendy-plant-info-box{
+        padding-left:1rem;
+        padding-right: 1rem;
+     }
+}
+@media screen and (max-width:453px){
+.top-selling-plant-section-heading::before {
+        top: 150px;
+    }
+}
+@media screen and (max-width:380px){
+    .subscribe-box{
+        margin-left: 0;
+        width: 250px;
+    }
+}
+@media screen and (max-width:392px){
+    .trendy-plant-section-heading::before{
+        top:150px;
+    }
+}
+@media screen and (max-width:404px){
+    .our-best-h::before{
+        top:80px;
+    }
+}
 
 .best-otwo-img-info-box{
     display: flex;
@@ -917,23 +1016,4 @@ nav{
     width: 24px;
     border-radius: 10px;
     opacity: 1;
-}
-@media  screen and (max-width:1250px) {
-    .best-otwo-img-box img {
-    width: 600px;
-    height:600px;
-}
-.best-otwo-info-box{
-    width: 100%;
-}
-.explore-controls{
-    display:flex;
-    justify-content: space-around;
-}
-}
-@media  screen and (max-width:800px) {
-    .best-otwo-img-box img {
-          width: 400px;
-          max-height:400px;
-}
 }
